@@ -1,0 +1,16 @@
+// Transitions scss file
+.container-list {
+  .item {
+    .text-task:focus {
+      background: rgb(241, 255, 110);
+    }
+
+    .icon-item:hover {
+      color: lawngreen;
+    }
+
+    .remove:hover {
+      color: red;
+    }
+  }
+}
